@@ -10,6 +10,6 @@
 ## 使用方法
 ```shell
 python exp.py -a [--host] -p [port] -c [--command] 
-python exp.py -a 192.168.28.250 -p 20038 -c "net user"
+python exp.py -a 127.0.0.1 -p 20038 -c "net user"
 ```
 ![image-20220218041904120](https://cdn.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220218041904120.png)
