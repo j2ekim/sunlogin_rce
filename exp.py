@@ -46,7 +46,7 @@ def main(host, port,command):
 if __name__ == '__main__':
     title()
     usage = ("Usage: python exp.py -a [--host] -p [port] -c [--command] \n"
-             'python exp.py -a 192.168.28.250 -p 20038 -c "net user"\n')
+             'python exp.py -a 127.0.0.1 -p 20038 -c "net user"\n')
     parser = OptionParser(usage=usage)
     parser.add_option('-a', '--host', dest='hosts', help='help')
     parser.add_option('-p', '--port', dest='port', help='help')
