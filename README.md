@@ -7,6 +7,7 @@
 只写了漏洞利用，没写端口检测
 有空再完善代码，及添加批量检测功能
 
+## 使用方法
 ```shell
 python exp.py -a [--host] -p [port] -c [--command] 
 python exp.py -a 192.168.28.250 -p 20038 -c "net user"
