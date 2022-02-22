@@ -16,9 +16,8 @@ python exp.py -i 127.0.0.1 -p 20038 -c "net user"
 python exp.py  -f targets.txt -c "whoami"
 ```
 
-## 图
+## 运行图
+![image-20220222161716318](https://cdn.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220222161716318.png)
 
-![image-20220218041904120](https://cdn.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220222160713132.png)
-
-![image-20220222160950745](https://cdn.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220222160950745.png)
+![image-20220222161815564](https://cdn.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220222161815564.png)
 
