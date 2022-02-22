@@ -13,7 +13,8 @@
 
 ## 使用方法
 ```shell
-python exp.py -a [--host] -p [--port] -c [--command] 
-python exp.py -a 127.0.0.1 -p 20038 -c "net user"
+         Usage: python exp.py -i [--host] -p [--port] -c [--command] -f [--file]
+         python exp.py -i 127.0.0.1 -p 20038 -c "net user" 
+         python exp.py  -f targets.txt -c "whoami"
 ```
 ![image-20220218041904120](https://cdn.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220222160713132.png)
