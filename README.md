@@ -1,4 +1,4 @@
-# 向日葵RCE漏洞检测工具
+# 向日葵RCE漏洞批量检测工具
 
 ## 使用需知
 仅供企业内部安全隐患排查使用
@@ -8,8 +8,6 @@
 ## 功能
 只写了漏洞利用，暂时没写端口检测
 
-有空再完善代码，及添加批量检测功能
-
 
 ## 使用方法
 ```shell
@@ -17,4 +15,7 @@ Usage: python exp.py -i [--host] -p [--port] -c [--command] -f [--file]
 python exp.py -i 127.0.0.1 -p 20038 -c "net user" 
 python exp.py  -f targets.txt -c "whoami"
 ```
+
+![image-20220222160950745](https://cdn.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220222160950745.png)
+
 ![image-20220218041904120](https://cdn.jsdelivr.net/gh/j2ekim/blog-image/image/image-20220222160713132.png)
